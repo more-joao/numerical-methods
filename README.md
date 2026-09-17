@@ -233,7 +233,7 @@ Given a function $f(x)$ and an iterative function $ϕ(x)$ for $f(x)=0$, both suc
 
 
 *   $f'(x)$ and $ϕ'(x)$ are continuous;
-*   $|ϕ'(x)| \leq M \lt 1$, $∀x \in I=[a,b]$ centered around $\xi$ (root of $f(x)$);
+*   $|ϕ'(x)| \leq M \lt 1$, $∀x \in I=[a,b]$ centered around $\xi$ (root of $f(x) $);
 *   $x_0 \in I$, where $x_0$ is an initial approximation of $\bar{x}$.
 
 a. Declare precisions $ϵ_1, ϵ_2 \gt 0$;
@@ -242,7 +242,7 @@ b. If $|f(x_0)| \lt \epsilon$, $\bar{x} = x_0$;
 
 c. $k=1$;
 
-d. $x_1 = $ϕ(x_0)$;
+d. $x_1 = ϕ (x_0)$;
 
 e. If $|f(x_1)| \lt ϵ_1$ or $|x_1-x_0| \lt ϵ_2$, then $\bar{x}=x_1$;
 
