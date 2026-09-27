@@ -123,6 +123,10 @@ x = bisection([1.0, 2.0], 0.01)
 print(f"x = {x}")
 ````
 
+Convergence Visualization:
+
+
+
 ### 2. False Position Method
 
 Given a function $f(x)$,
@@ -133,7 +137,7 @@ b. Declare precision $ϵ \gt 0$;
 
 c. If $|b-a| \lt \epsilon$, $\bar{x} = x$, $\forall x \in [a,b]$;
 
-d. If not, do: $$x_p = \frac{af(b)-b(f(a))}{f(b)-f(a)};$$
+d. If not, do: $$x_p = \frac{af(b)-bf(a)}{f(b)-f(a)};$$
 
 e. If $f(x_p) = 0$, then $\bar{x} = x_p$;
 
