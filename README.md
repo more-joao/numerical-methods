@@ -125,7 +125,7 @@ print(f"x = {x}")
 
 Convergence Visualization:
 
-
+<img src="https://github.com/more-joao/numerical-methods/blob/main/img/bisection.gif" width="500" height="500"/>
 
 ### 2. False Position Method
 
